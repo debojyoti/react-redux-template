@@ -9,7 +9,6 @@ export default defineConfig({
       src: "/src",
     },
   },
-
   esbuild: {
     include: /\.js$/,
     exclude: [],
