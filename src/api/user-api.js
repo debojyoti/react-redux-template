@@ -1,4 +1,4 @@
-import { ProtectedHttpClient, PublicHttpClient } from "../clients/http-client";
+import { ProtectedHttpClient, PublicHttpClient } from "src/clients/http-client";
 
 const UserApi = {
   public: {
