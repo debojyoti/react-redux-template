@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 import Actions from "src/stores/actions";
+import "./page1.scss";
 
 const Page1 = () => {
   const { userName } = useSelector((state) => state.user);
